@@ -1,0 +1,22 @@
+{
+  "name": "justUtils",
+
+  "buildDir": "bin",
+  "buildFileName": "utils.js",
+
+  "compilerOptions": {
+    "compilationLevel": "SIMPLE_OPTIMIZATIONS",
+    "warningLevel": "VERBOSE",
+    "language": "ECMASCRIPT5",
+    "formatting": ""
+  },
+
+  "srcDir": "lib",
+  "rootNamespace": "utils",
+
+  "src": [
+    "utils.js"
+  ],
+
+  "deps": []
+}
