@@ -1,8 +1,7 @@
 {
-  "name": "justUtils",
+  "name": "semantic.utils",
 
   "buildDir": "bin",
-  "buildFileName": "utils.js",
 
   "compilerOptions": {
     "compilationLevel": "SIMPLE_OPTIMIZATIONS",
@@ -14,9 +13,18 @@
   "srcDir": "lib",
   "rootNamespace": "utils",
 
-  "src": [
-    "utils.js"
-  ],
+  "externsDir": "externs",
 
-  "deps": []
+  "modules": {
+    "semantic.utils": {
+      "src": [
+        "utils.js",
+        "arr/arr.js",
+        "obj/obj.js",
+        "fn/fn.js"
+      ]
+    }
+  },
+
+  "deps": {}
 }
