@@ -3,12 +3,6 @@
 /**
  * @namespace
  */
-var utils = {};
-
-
-/**
- * @namespace
- */
 utils.arr = {};
 
 
